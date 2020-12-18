@@ -1,0 +1,23 @@
+div.borders {
+  height: 1000px;
+  width: 630px;
+}
+.borders h4,
+.borders address,
+div.receiver {
+  text-align: right;
+}
+div.caption,
+div.text_letter {
+  font-family: "Bad Script", cursive;
+  text-indent: 20px;
+}
+div.caption {
+  font-size: 17px;
+  font-weight: bolder;
+  text-decoration-line: underline;
+}
+div.text_letter {
+  font-size: 14px;
+}
+
