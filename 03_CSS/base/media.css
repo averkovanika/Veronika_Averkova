@@ -1,0 +1,9 @@
+@media all and (max-width: 740px) {
+  div.menu > div {
+    display: block;
+  }
+  div.submenu {
+    left: 120px;
+    top: 0px;
+  }
+}

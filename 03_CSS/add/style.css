@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div.menu > div {
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 20px;
+  background-color: rgb(209, 208, 208);
+  border: 1px solid black;
+  border-radius: 3px;
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+  font-weight: bolder;
+}
+div.submenu > div {
+  background-color: rgb(209, 208, 208);
+  border: 1px solid black;
+  border-radius: 3px;
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+  font-weight: bolder;
+  height: 20px;
+}
+div.submenu {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: 1s ease-out;
+}
+#wednesday:hover {
+  background-color: rgb(95, 94, 94);
+  color: rgb(243, 239, 239);
+  cursor: pointer;
+}
+#wednesday:hover div.submenu {
+  visibility: visible;
+  position: absolute;
+  transform: scaleY(1);
+}
